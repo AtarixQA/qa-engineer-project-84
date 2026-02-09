@@ -6,7 +6,7 @@ test-cases:
   
   - summary: |
       Проверка фильтрации товаров по производителю
-    status: pass
+    status: fail
   
   - summary: |
       Проверка фильтрации товаров по наличию
