@@ -2,7 +2,7 @@
 test-cases:
   - summary: |
       Проверка поиска товара по ключевому слову
-    status: pass
+    status: fail
   
   - summary: |
       Проверка фильтрации товаров по производителю
@@ -115,6 +115,10 @@ test-cases:
   - summary: |
       Проверка полной очистки корзины
     status: pass
+
+  - summary: |
+      Проверка закрытия модального окна заказа
+    status: fail
     
 bugreports:
   - summary: |
